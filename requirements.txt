@@ -1,6 +1,13 @@
-# Bibliotecas de Interface Gráfica
+# ── Archon — Advocacia Digital ────────────────────────────────────────────────
+# Instalar com: pip install -r requirements.txt
+# Python >= 3.10 recomendado (testado em 3.14)
+ 
+# Interface gráfica moderna (substitui tkinter puro)
 customtkinter>=5.2.2
-
-# Dependências do CustomTkinter (Geralmente instaladas automaticamente, mas essenciais para compilar o .exe depois)
+ 
+# Manipulação de imagens (ícones, logo Z, assets)
+Pillow>=10.0.0
+ 
+# Dependências automáticas do customtkinter (instaladas junto, mas explicitadas)
 darkdetect>=0.8.0
-packaging>=23.1
+packaging>=23.0
