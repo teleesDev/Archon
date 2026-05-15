@@ -1,0 +1,6 @@
+# Bibliotecas de Interface Gráfica
+customtkinter>=5.2.2
+
+# Dependências do CustomTkinter (Geralmente instaladas automaticamente, mas essenciais para compilar o .exe depois)
+darkdetect>=0.8.0
+packaging>=23.1
