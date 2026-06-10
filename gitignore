@@ -1,0 +1,28 @@
+# ── Dados sensíveis do cliente (NUNCA subir) ─────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+seed_database.py
+template.xlsx
+backups/
+
+# ── Build / executável ────────────────────────────────────────────────────────
+build/
+dist/
+Output/
+*.exe
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── IDE / SO ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
